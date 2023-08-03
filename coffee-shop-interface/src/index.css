@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "KotoriRose";
+  src: url('./assets/fonts/KotoriRose-Regular.otf');
+}
+
+@font-face {
+  font-family: "KotoriRoseBold";
+  src: url('./assets/fonts/KotoriRose-Bold.otf');
+}
+
+@font-face {
+  font-family: "Emeralde";
+  src: url('./assets/fonts/Emeralde\ Chamerions\ Script.otf');
+}
+
+@layer base {
+  * {
+    @apply m-0 p-0 box-border font-kotoriRose transition-all ease-in-out 
+  }
+
+  *:not(path, svg)
+  {
+    @apply text-brown
+  }
+
+  html {
+    @apply bg-coffeeBean bg-contain bg-tan bg-blend-soft-light overflow-x-hidden
+  }
+
+  main {
+    @apply bg-white/[90%] w-screen flex flex-col
+  }
+
+  section {
+    @apply h-fit md:pt-28 md:px-20 flex w-screen relative
+  }
+
+  h1 {
+    @apply text-3xl md:text-5xl uppercase
+  }
+
+  h2 {
+    @apply text-3xl md:text-5xl text-center font-emeralde text-brown/70
+  }
+
+  h3 {
+    @apply text-xl uppercase font-kotoriRoseB text-left
+  }
+
+  p {
+    @apply text-brown/80 text-xs md:text-base text-center md:text-left
+  }
+
+  a {
+    @apply hover:opacity-100 opacity-80 text-base
+  }
+
+  li {
+    @apply hover:underline hover:cursor-pointer
+  }
+
+  ul {
+    @apply space-y-4
+  }
+
+  button {
+    @apply border-brown border-[1px] w-fit py-4 px-8 rounded-lg hover:bg-brown hover:text-white cursor-pointer uppercase text-sm md:text-base
+  }
+
+  input {
+    @apply py-3 px-4 border-brown/20 border-[1px] rounded-lg outline-none
+  }
+
+  table {
+    @apply w-full h-fit
+  }
+
+  th {
+    @apply text-left text-lg pt-4 pb-8
+  }
+
+  td {
+    @apply border-t-[1px] border-brown/20 h-fit py-4
+  }
+}
+
+@layer components
+{
+  .bg-hero {
+    @apply bg-[url('https://img.freepik.com/free-photo/defocused-corridor\_1203-337.jpg?size=626&ext=jpg&ga=GA1.1.796715536.1685725106&semt=country\_rows\_v1')] sm:h-[20rem] md:h-[50rem];
+  }
+
+  .bg-menu {
+    @apply bg-[url('https://img.freepik.com/free-photo/defocused-corridor\_1203-337.jpg?size=626&ext=jpg&ga=GA1.1.796715536.1685725106&semt=country\_rows\_v1')] md:h-[25rem];
+  }
+
+  .cursive {
+    @apply font-emeralde
+  }
+
+}
+
+.bg-image {
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+}

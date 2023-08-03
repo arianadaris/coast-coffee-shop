@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "1YcFA22mD18Q09rRjM9G5OHE97YXVZhMnf7kK6iiUDA=",
+  "Source": "coffee-shop-api",
+  "BasePath": "_content/coffee-shop-api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
