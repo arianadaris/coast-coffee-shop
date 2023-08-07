@@ -11,6 +11,7 @@
 <h4>Overview</h4>
 <p>I created this project to learn how to do the following:</p>
   • Manage a PostgreSQL database with a data manager, which updates or removes entries in tables in the database<br>
+  • Use a database-first EntityFramework approach to structure the database and models before creating an API<br>
   • Develop a .NET Core API that manipulates database data (retrieved from the data manager) and returns data to the interface<br>
   • Create a user authentication system from scratch using React Contexts, ensuring critical user information is secure<br>
 
@@ -24,11 +25,6 @@
   • Log into an existing account<br>
 <h1></h1>
 
-<h4>Current Progress</h4>
-https://github.com/arianadaris/coast-coffee-shop/assets/73635827/b38e8bea-7540-4289-ae0e-302588b1a4d9
-
-<h1></h1>
-
 <h4>To Dos</h4>
   • Interface - About page<br>
   • Interface - Account page rewards section<br>
@@ -38,8 +34,8 @@ https://github.com/arianadaris/coast-coffee-shop/assets/73635827/b38e8bea-7540-4
   • Interface - Order status component<br>
   • Interface - Make mobile responsive<br>
   • Backend - Update user information<br>
+  • Backend - Order system<br>
   • Backend - Delete user account and cart<br>
-  • Interface - Favicon<br>
 
 <h4>Installation & Set Up</h4>
 <h5>PostgreSQL Set Up</h5>
