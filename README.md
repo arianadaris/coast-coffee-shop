@@ -26,7 +26,6 @@
 <h1></h1>
 
 <h4>To Dos</h4>
-  • Interface - About page<br>
   • Interface - Account page rewards section<br>
   • Interface - Rewards page<br>
   • Interface - Order page<br>
